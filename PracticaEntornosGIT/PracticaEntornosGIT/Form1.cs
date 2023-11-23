@@ -28,7 +28,7 @@ namespace PracticaEntornosGIT
             
             string[] words = textoTelegrama.Split(' ');
             // telegrama urgente?
-            if (radioUrgente.Checked)
+            if (cbUrgente.Checked)
                 tipoTelegrama = 'u';
             //Obtengo el número de palabras que forma el telegrama
             numPalabras = words.Length;
